@@ -2,8 +2,10 @@
 
 ## 项目概述
 
-To teach LLM Agents how to work with PSR.exe's HMT
+
 本项目旨在通过使用PSR.exe录制的MHT文件，让大语言模型（LLM）学习工作流。PSR.exe是Windows操作系统中的问题步骤记录器，可以记录用户操作并生成MHT文件。通过解析这些MHT文件，LLM可以学习和理解用户的工作流程。
+
+To teach LLM Agents how to work with PSR.exe's MHT files, this project aims to use MHT files recorded by PSR.exe to enable large language models (LLMs) to learn workflows. PSR.exe is the Problem Steps Recorder in the Windows operating system, which can record user operations and generate MHT files. By parsing these MHT files, LLMs can learn and understand user workflows.
 
 ## 功能
 
