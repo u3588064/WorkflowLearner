@@ -1,0 +1,80 @@
+# WorkflowLearner
+
+## Project Overview
+
+To teach LLM Agents how to work with PSR.exe's HMT
+本项目旨在通过使用PSR.exe录制的MHT文件，让大语言模型（LLM）学习工作流。PSR.exe是Windows操作系统中的问题步骤记录器，可以记录用户操作并生成MHT文件。通过解析这些MHT文件，LLM可以学习和理解用户的工作流程。
+
+## Features
+
+- Use PSR.exe to record user operations and generate MHT files.
+- Parse MHT files and extract workflow information.
+- Use LLM to learn and understand workflows.
+
+## Installation
+
+### Prerequisites
+
+- Windows operating system
+- Python 3.x
+- PSR.exe (Problem Steps Recorder, built-in Windows tool)
+
+### Installation Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/llm-workflow-learning.git
+    cd llm-workflow-learning
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Record user operations using PSR.exe:
+    - Open PSR.exe (Problem Steps Recorder), which can be found via the search bar in Win7/Win8/Win10.
+    - Click the "Start Record" button and begin your work. PSR.exe will automatically record mouse actions (such as clicks, drags, scrolls, etc.) and keyboard actions (only actions, not the content typed).
+    - After completing the operations, click the "Stop Record" button. The software will automatically open a save window.
+    - The result will be saved as a Zip file containing an MHT format webpage with step-by-step actions and screenshots.
+
+2. Parse the MHT file:
+    ```bash
+    python parse_mht.py path/to/your/file.mht
+    ```
+
+3. Use LLM to learn the workflow:
+    ```bash
+    python learn_workflow.py path/to/parsed/data.json
+    ```
+
+## File Structure
+
+```
+llm-workflow-learning/
+│
+├── parse_mht.py          # Script to parse MHT files
+├── learn_workflow.py     # Script to use LLM to learn workflows
+├── requirements.txt      # Project dependencies
+├── README.md             # Project documentation
+└── data/                 # Directory to store parsed data files
+```
+
+## Contributing
+
+Contributions are welcome! Please submit an Issue or Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or suggestions, please contact me:
+- Email: u3588064@connect.hku.hk
+- GitHub: [u3588064@connect.hku.hk](mailto:u3588064@connect.hku.hk)。
+
+Wechat
+![qrcode_for_gh_643efb7db5bc_344(1)](https://github.com/u3588064/LLMemory/assets/53069671/8bb26c0f-4cab-438b-9f8c-16b1c26b3587)
