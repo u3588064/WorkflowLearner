@@ -47,7 +47,7 @@ pip install -r requirements.txt
 2. 点击“开始记录”按钮，然后开始你的工作。PSR.exe会自动记录鼠标动作（如点击、拖动、滚动等）以及键盘动作（仅是动作，不会记录键入的内容）。
 3. 完成操作后，点击“停止记录”按钮。软件会自动弹出保存窗口。
 4. 结果会以一个Zip压缩包存在，压缩包内是MHT格式的网页，内含分步步骤以及屏幕截图。
-
+--------------------------------------
 1. Open PSR.exe (Problem Steps Recorder), which can be found via the search bar in Win7/Win8/Win10.
 2. Click the "Start Record" button and begin your work. PSR.exe will automatically record mouse actions (such as clicks, drags, scrolls) and keyboard actions (only actions, not the content typed).
 3. Once done, click the "Stop Record" button. The software will automatically prompt a save window.
