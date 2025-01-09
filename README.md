@@ -20,13 +20,9 @@ To teach LLM Agents how to work with PSR.exe's MHT files, this project aims to u
 
 ### 前提条件 Requirements
 
-- Windows操作系统
+- Windows操作系统 Windows operating system
 - Python 3.x
-- PSR.exe（问题步骤记录器，Windows自带）
-
-- Windows operating system
-- Python 3.x
-- PSR.exe (Problem Steps Recorder, included with Windows)
+- PSR.exe（问题步骤记录器，Windows自带;Problem Steps Recorder, included with Windows）
 
 ### 安装步骤 Install Steps
 
